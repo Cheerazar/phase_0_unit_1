@@ -10,10 +10,60 @@
 </div>
 
 <div class="answers">
-	<p>I set up git and GitHub quite a while ago, but I do remember that I had trouble installing git. At that time I'm fairly certain that I had trouble getting the PATH setup correctly for git. While I was troubleshooting it I ended up getting a better understanding of the .bash_profile, as I had to figure out how to configure the PATH to point to the proper place.</p>
+	<p class="question1">
+		I set up git and GitHub quite a while ago, but I do remember that I had trouble installing git. At that time
+	 	I'm fairly certain that I had trouble getting the PATH setup correctly for git. While I was troubleshooting it I ended up getting
+	 	a better understanding of the .bash_profile, as I had to figure out how to configure the PATH to point to the proper place to get
+	 	git working.
+	 </p>
 
-	<p>Overall Github was much less painful to setup, though pulling a repository down based on the GirlDevelopIt slides proved troublesome. Those slides did not have you create a README.md file when generating the new project, so when going to execute "git pull origin master" it had the error "fatal: Couldn't find remote ref master". After a bit of testing and researching I determined that there needed to be an initial file in the project for you to be able to intiate a pull request. This is easily accomplished by using GitHub to create the project and checking the create README.md file prior to submitting your pull request. Alternatively you can create and initialize a local git project directory, add and commit a file, and then push that directory to GitHub.</p>
+	<p class="question1">
+		Overall Github was much less painful to setup, though pulling a repository down based on the GirlDevelopIt
+	 	slides proved troublesome. Those slides did not have you create a README.md file when generating the new project, so when going
+	  to execute <code>git pull origin master</code> it generated the error <code>fatal: Couldn't find remote ref master</code>. 
+	  After a bit of testing and researching I determined that there needed to be an initial file in the project for you to be able
+	  to intiate a pull request. This is easily accomplished by using GitHub to create the project and checking the create README.md 
+	  file prior to submitting your pull request. Alternatively you can create and initialize a local git project directory, add and 
+	  commit a file, and then push that directory to GitHub.
+	</p>
 
-	<p>Git is a method of version control, while GitHub is a repository where you can remotely store your version controlled files. Let me break that down into easier to digest pieces, by explaining what git does. Do you remember those days in school or at work when you were working on a project, be it a paper, code, powerpoint, etc, and you came to a decision where you wanted to try something different? I'm sure we all do and how did we deal with it at that time? Frequently you ended up duplicating the original file and using a naming convention such as mydoc_rev1a.doc. From there you would work on that project and then come to another branching decision and repeat the aforementioned process. This is a very primitive version of version control, but it has quite a few flaws. It's not that easy to remember why you made the new file unless you took very good notes, which makes it difficult if not impossible to backtrack if needed later down the line. One solution to this is to use git, which handles the version naming of your files as well as keeps track of what changes you made from revision to revision.  </p>
+	<p class="question2and3">
+		Git is a method of version control, while GitHub is a repository where you can remotely store your version controlled files. 
+		Let me break that down into easier to digest pieces, by explaining what git does. Do you remember those days in school or at 
+		work when you were working on a project, be it a paper, code, powerpoint, etc, and you came to a decision where you wanted to
+		try something different? I'm sure we all do and how did we deal with it at that time? Frequently you ended up duplicating the
+		original file and using a naming convention such as mydoc_rev1a.doc. From there you would work on that project and then come to 
+		another branching decision and repeat the aforementioned process. This is a very primitive version of version control, but it has 
+		quite a few flaws. It's not that easy to remember why you made the new file unless you took very good notes, which makes it 
+		difficult if not impossible to backtrack if needed later down the line. One solution to this is to use git, which handles the 
+		version naming of your files as well as keeps track of what changes you made from revision to revision on your local computer. 
+		Git allows you to create branches to try out new things without altering your master copy. You can also commit changes to your 
+		project thus leaving you with a history of the edits and revisions that you've made over time.
+	</p>
+
+	<p class="question2and3">
+		On the other hand GitHub allows you to store those projects in a central and easily located remote repository on the internet.
+		It keeps track of your version controlled documents, provided that you send them there, it also allows easy collaboration by 
+		allowing people to pull your projects down from the internet to their local machine to experiment, collaborate, or improve them,
+		but is not actually version control in and of itself. Additionally GitHub can allow teams all over the world to easily work on 
+		the same project together. Each person can pull a master copy of the project and then start working on it at the same time. Even 
+		if you work on the same files you won't overwrite changes without having to review and accept them.
+	</p>
+
+	<p class="question4">
+		There are many reasons for developers to use version control. Among them are the ability to track the changes that are made, 
+		which allows you to see how the project progesses, determine when and where bugs were introduced, have a team that isn't located
+		in the same physical building work together congruently, as well as the ability to create a branch and experiment with a feature
+		without altering the master copy of the project at all. All of these things allow developers to work more efficiently, resulting 
+		in better more understandable code. There are not any reasons that I can see right now where version control doesn't make sense 
+		and shouldn't be in use. Why wouldn't you want the ability to track the changes in your code throughout your entire product life
+		cycle, no matter how big or small the project?
+	</p>
+
+	<p class="question5">
+		Version control and its various pieces make sense to me and I'm quite excited to use the process on my upcoming projects. In 
+		former workplaces I've used both CVS and SVN, so I'm somewhat familiar with the concept of version control, but the more I use
+		git and GitHub, the more I enjoy them and want to incorporate them into my workflow.
+	</p>
 </div>
 
