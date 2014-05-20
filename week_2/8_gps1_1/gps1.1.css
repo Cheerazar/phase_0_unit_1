@@ -1,1 +1,39 @@
-/* include your css here */
+body { background-image: url("http://cheerazar.github.io/unit1_projects/stylesheets/images/green_cup/green_cup.png"); }
+
+.container {
+	width: 690px;
+	margin: auto;
+}
+
+#nav {
+	float: left;
+  width: 120px;
+  height: 730px;
+}
+
+#content {
+	height: 730px;
+}
+        
+#title { text-align: center; }
+#footer {
+  border-top: 5px solid black; 
+  text-align: center;
+  z-index: 1;
+}
+
+img {
+	float: left;
+  height: 150px;
+}
+
+div { font-family: sans-serif; }
+ul { list-style-type:none; }
+a:link{ text-decoration:none; }
+li { 
+	margin-left:-30px;
+  font-size: .75em;
+  padding-bottom: 5px; 
+}
+
+#nav > h3 { font-size: 1em; }
