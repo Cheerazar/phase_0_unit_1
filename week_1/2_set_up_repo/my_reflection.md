@@ -8,6 +8,8 @@
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
 <div class="answers">
+	* Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person
+
 	<p class="question1">
 		This question leaves open a large number of variables, so I'm going to assume that the 
 		user is not familiar with the process, that they are going to be using a Mac with OS X 10.9.x, that they are an administrator on their computer, and finally that they will encounter no issues during these instructions. A tall order I know, but every now and again you get lucky and things work out as desired. 
@@ -81,6 +83,8 @@
 		You are now ready to pull your repository off of the internet at GitHub and pull it down to your computer! There are just a few more Terminal commands to finish this particular project. In this example we will install the repository on your desktop to keep things simple. Enter the command <code>cd ~/Desktop</code>	into the Terminal to change your working directory. Then type <code>git clone git@github.com:username/Hello-World.git</code> into the Terminal, substituting your GitHub username for the username field. Congratulations you've just finished the large task of installing git, creating a GitHub account, and cloning your first repository to your computer!
 	</p>
 
+	* Describe what open source means
+
 	<p class="question2">
 		Software is considered to be open source when you can download the program as well as the sourcecode, tinker with it to your hearts content, and use it for free. Software must specifically be liscensed as open source to be considered as such. There are many different types of open source licenses that can be used, with each of them granting a different set of permissions for how that software can be used by other end users. Additionally as open source software projects are available for anyone to use, many people can work on the project, that are not on the original development team, and they can create enhancements, bug fixes, etc. 
 	</p>
@@ -89,19 +93,25 @@
 		Standardly when you buy non-open source software off the shelf, you are not able to see the inner workings (source code) of the program that you have purchased. This is due to the fact that that project's source code is part of that companies revenue stream and if they were to publically release it as open source, there is a chance that many people would no longer buy their software, as they could download it for free. 
 	</p>
 
+	* What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+
 	<p class="question3">
 		The concept and execution of open source projects doesn't make me nervous or protective of my work, nor does it appear to be a utopia either. There are times and places for open source projects, just as there are times and places for closed projects. The beauty of both of these types of projects is that they represent a choice that you can make when you start a project. Open source is a wonderful concept for software development, as many people can work on a project, make improvements, and create unique and awesome utilities. The one potential downside that I can see is when someone elects to abuse your license, such as claiming your work as their own.
 	</p>
+
+	* Assess the importance of using licenses
 
 	<p class="question4">
 		Licensing is a critical part of any project, as it protects your your rights, including any patents granted to that particular work. Picking the appropriate license also allows you to not have to worry about granting permission to every individual that would like to use your product, thus removing some of the administrative book-keeping that might otherwise be necessary. 
 	</p>
 
+	* What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
 
 	<p class="question5">
 		This particular challange wasn't that difficult for me, but I found it to be quite time consuming. I most likely went overboard with the amount of detail within my git and GitHub tutorial, but it helped to reinforce my understanding of the overall process. The process of installing Homebrew to manage open source packages was very beneficial. Additionally I came to see how difficult this process could be to someone that is unfamiliar with the various applications and commands that are necessary to ensure a smooth installation. 
 	</p>
 
+	* Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 	<p class="question6">
 		I did not end up doing any external research during this challange on open source, as the open source material provided in the challange was quite good, but I did use an excellent <a href="http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-1">tutorial</a> to help me determine the exact steps I needed to install git. With the individual commands and steps in hand I was able to write my explanation for users that would not necessarily be familiar with this process in my own voice and flow. GitHub also had an excellent <a href="https://help.github.com/articles/generating-ssh-keys">tutorial</a> on how to generate SSH keys, that I gathered information from for my guide.
 	</p>
