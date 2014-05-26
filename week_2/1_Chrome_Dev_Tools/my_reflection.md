@@ -1,5 +1,6 @@
 # U1.W2: Chrome Dev Tools Challenge Reflection
 
+
 <div class="questions">
 	<ul>
 		<li>Describe the Document Object Model? What about it makes sense to you? What doesn't? What seems good and bad about it?</li>
