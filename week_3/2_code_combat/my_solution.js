@@ -40,7 +40,12 @@ this.attackNearbyEnemy();
  
 // Drink Me
 // Pseudocode
-
+// attack!
+// move right
+// move down
+// move up
+// move right
+// attack!
  
 // Taunt the Guards
 // Pseudocode
