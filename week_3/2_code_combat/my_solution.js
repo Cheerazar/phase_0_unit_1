@@ -204,6 +204,42 @@ this.attackXY(51, 67);
 this.attackXY(48, 53);
 
 
+
+// Release 3: Answer the following questions
+/**
+ * When you are finished with all of the campaigns, answer the following questions. You may want to look at some resources on JavaScript before answering.
+ * What is this referring to? Think programming-wise rather than in the terms of the game.
+ * What does the () do in JavaScript?
+ * What is the point of the semicolons?
+ * 
+ */
+
+/**
+ * The this object can have different meanings depending on the context of where it is used. 
+ * If it used outside of a function invocation, it will refer to the global object. If it is used within a function
+ * closure, it will refer to the object that caused the function invocation. 
+ */
+
+/**
+ * The () after a function in JavaScript is a function invocation, in other words they cause the function to be executed.
+ *
+ */
  
+/**
+ * Semicolons are used to separate statements in JavaScript. It can clarify code by showing where one 
+ * statement ends and the next begins. They are not required between lines to separate two statements, 
+ * yet sometimes it is easier to have them there to create clear differentiations of statements
+ * 
+ */
+
 // Reflection:
 // Write your reflection here.
+/**
+ * What parts of your strategy worked? What problems did you face?
+ * What questions did you have while coding? What resources did you find to help you answer them?
+ * What concepts are you having trouble with, or did you just figure something out? If so, what?
+ * Did you learn any new skills or tricks?
+ * How confident are you with each of the Learning Competencies?
+ * Which parts of the challenge did you enjoy?
+ * Which parts of the challenge did you find tedious?
+ */
