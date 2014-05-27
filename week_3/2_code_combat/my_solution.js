@@ -174,9 +174,17 @@ this.moveXY(70, 10);
 // Mission: Commanding Followers
 /**
  * Pseudocode
- *
+ * Move to 75, 63
+ * recruit followers using the word follow
+ * move to 66, 42
+ * command followers to attack
  * 
  */
+
+this.moveXY(75, 63);
+this.say('Hail, friends! Follow me!');
+this.moveXY(66, 42);
+this.say('Attack!');
 
 
 
