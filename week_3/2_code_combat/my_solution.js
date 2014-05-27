@@ -153,15 +153,21 @@ this.say('I can beat you in one on one combat!', {target: 'enemy'});
  * Pseudocode
  * move to 56, 33
  * taunt ogres
- * move to 70, 15
+ * move to 70, 10
  * move to 41, 42
  * taunt ogres
- * move to 70, 15
+ * move to 70, 10
  * move to 68, 44
  * taunt ogres
- * move to 70, 15
+ * move to 70, 10
  * 
  */
+
+// I managed to find a sweet spot that drew in all the ogres in
+// one go so I only needed three commands
+this.moveXY(56, 33);
+this.say('Your mother was a human!', {target: 'enemy'});
+this.moveXY(70, 10);
 
 
 
