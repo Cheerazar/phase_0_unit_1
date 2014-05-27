@@ -5,14 +5,16 @@
 // command + / This will comment the line. 
  
  
-// Rescue Mission
-// Pseudocode
-// move down x2
-// move right
-// move up x2
-// move right x2
-// move down
-// attack!
+// Mission: Rescue Mission
+/**
+ * Pseudocode
+ * move down x2
+ * move right
+ * move up x2
+ * move right x2
+ * move down
+ * attack!
+ */
 
 this.moveDown();
 this.moveDown();
@@ -24,13 +26,17 @@ this.moveRight();
 this.moveDown();
 this.attackNearbyEnemy();
 
-// Grab the Mushroom 
-// Pseudocode
-// move up
-// move right
-// move left
-// move up
-// attack!
+
+
+// Mission: Grab the Mushroom 
+/**
+ * Pseudocode
+ * move up
+ * move right
+ * move left
+ * move up
+ * attack!
+ */
 
 this.moveUp();
 this.moveRight();
@@ -38,14 +44,18 @@ this.moveLeft();
 this.moveUp();
 this.attackNearbyEnemy();
  
-// Drink Me
-// Pseudocode
-// attack!
-// move right
-// move down
-// move up
-// move right
-// attack!
+
+
+// Mission: Drink Me
+/**
+ * Pseudocode
+ * attack!
+ * move right
+ * move down
+ * move up
+ * move right
+ * attack!
+ */
 
 this.attackNearbyEnemy();
 this.moveRight();
@@ -54,32 +64,34 @@ this.moveUp();
 this.moveRight();
 this.attackNearbyEnemy();
  
-// Taunt the Guards
-// Pseudocode
-// more right
-// taunt guard
-// move left x2
-// command ally to attack
-// move right 
-// command ally to follow
-// move right x2
-// move up
-// move right
-// taunt guards
-// move down
-// move right 
-// move up
-// move right 
+
+
+// Mission: Taunt the Guards
+/**
+ * Pseudocode
+ * more right
+ * taunt guard
+ * move left x2
+ * command ally to attack
+ * move right 
+ * command ally to follow
+ * move right x2
+ * move up
+ * move right
+ * taunt guards
+ * move down
+ * move right 
+ * move up
+ * move right 
+ */
 
 this.moveRight();
 this.bustDownDoor();
-
 this.moveRight();
 this.say("Hey there!");
 this.moveLeft();
 this.moveLeft();
 this.say("Attack!");
-
 this.moveRight();
 this.say("Follow me.");
 this.moveRight();
@@ -93,43 +105,81 @@ this.moveUp();
 this.moveRight();
 
  
-// It's a Trap
-// Pseudocode
-// move down x2
-// taunt guard
-// move up x2
-// command allies to attack
 
-// Taunt the Ogre and run for cover!
+// Mission: It's a Trap
+/**
+ * Pseudocode
+ * move down x2
+ * taunt guard
+ * move up x2
+ * command allies to attack
+ */
+
 this.moveDown();
 this.moveDown();
 this.say('Hey there!');
 this.moveUp();
 this.moveUp();
 this.say('Attack!');
- 
-// Break the Prison
-// Pseudocode
 
 
 
-// Taunt
-// Pseudocode
+// Mission: Break the Prison
+/**
+ * Pseudocode
+ *
+ * 
+ */
 
 
 
-// Cowardly Taunt
-// Pseudocode
+
+// Mission: Taunt
+/**
+ * Pseudocode
+ * say insult and target ogre x4
+ */
+
+this.say("Hey!");
+this.say('Your mother was a human!', {target: 'enemy'});
+this.say('You smell like lavendar!', {target: 'enemy'});
+this.say('I see a smaller ogre carrying a bigger axe!', {target: 'enemy'});
+this.say('I can beat you in one on one combat!', {target: 'enemy'});
 
 
 
-// Commanding Followers
-// Pseudocode
+// Mission: Cowardly Taunt
+/**
+ * Pseudocode
+ * move to 56, 33
+ * taunt ogres
+ * move to 70, 15
+ * move to 41, 42
+ * taunt ogres
+ * move to 70, 15
+ * move to 68, 44
+ * taunt ogres
+ * move to 70, 15
+ * 
+ */
 
 
 
-// Mobile Artillery
-// Pseudocode
+// Mission: Commanding Followers
+/**
+ * Pseudocode
+ *
+ * 
+ */
+
+
+
+// Mission: Mobile Artillery
+/**
+ * Pseudocode
+ *
+ * 
+ */
 
 
 
