@@ -7,19 +7,19 @@ Add the current content found in your working tree. The add command can be used 
 
 
 #### branch
-The branch command can perform several functions depending on what option flags are used. 
+The branch command can list the current branches in the repository, as well as create a new branch within the repository. 
 
 #### checkout
 <!-- Your defnition here -->
 
 #### clone
-<!-- Your defnition here -->
+The clone command will copy a repository into a directory. 
 
 #### commit
-<!-- Your defnition here -->
+The commit command will record the changes to the repository that have been made using commands like add and rm.
 
 #### fetch
-<!-- Your defnition here -->
+
 
 #### log
 The log command will show you a history of commits made in the current repository. 
@@ -34,10 +34,10 @@ The pull command fetches changes from either a remote repository or a local bran
 The push command updates your remote repository with the changes that you have committed to your local repository. 
 
 #### reset
-<!-- Your defnition here -->
+The reset command will revert changes made in the repository by shifting where the HEAD points. This allows you to go back a version in the repository if you discovered that you did not want to make a certain commit. 
 
 #### rm
-The rm command removes files from a git repository. 
+The rm command removes files from a git repository. Once a file has been added to git, you will want to use the rm command instead of going into a folder and manually deleting the file, as git will consider the file missing if you delete it instead of removing. 
 
 #### status
 The status command will tell you the differences in your repository since your last commit. It does this by indicating the differences in files already tracked by git in your repository since your last commit and also shows content in your repository that is not tracked by git.  
