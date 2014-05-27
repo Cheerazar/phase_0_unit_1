@@ -46,9 +46,51 @@ this.attackNearbyEnemy();
 // move up
 // move right
 // attack!
+
+this.attackNearbyEnemy();
+this.moveRight();
+this.moveDown();
+this.moveUp();
+this.moveRight();
+this.attackNearbyEnemy();
  
 // Taunt the Guards
 // Pseudocode
+// more right
+// taunt guard
+// move left x2
+// command ally to attack
+// move right 
+// command ally to follow
+// move right x2
+// move up
+// move right
+// taunt guards
+// move down
+// move right 
+// move up
+// move right 
+
+this.moveRight();
+this.bustDownDoor();
+
+this.moveRight();
+this.say("Hey there!");
+this.moveLeft();
+this.moveLeft();
+this.say("Attack!");
+
+this.moveRight();
+this.say("Follow me.");
+this.moveRight();
+this.moveRight();
+this.moveUp();
+this.moveRight();
+this.say('Hey there!');
+this.moveDown();
+this.moveRight();
+this.moveUp();
+this.moveRight();
 
  
 // It's a Trap
