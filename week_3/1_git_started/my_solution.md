@@ -50,10 +50,18 @@ The status command will tell you the differences in your repository since your l
 
 
 - Push files to a remote repository
-git add * or specific_filename.ext (* will add all files that have been modified from the current commit to the repository, whereas you can also add a specific file if that's all you want to add at the time)
+git add . or specific_filename.ext (* will add all files that have been modified from the current commit to the repository, whereas you can also add a specific file if that's all you want to add at the time)
 git commit -m "Appropriate present tense message for what was accomplished"
 git push
 
+- Fetch changes
+If branch location unknown/not remembered
+git remote -v
+git fetch (remote location) Fill in the remote location with the information gained from the previous command
+
+- Commit locally
+git add . or specific_filename.ext (* will add all files that have been modified from the current commit to the repository, whereas you can also add a specific file if that's all you want to add at the time)
+git commit -m "Appropriate present tense message for what was accomplished"
 
 ## Release 5: Errors you encountered
 1. Error
@@ -62,7 +70,37 @@ git push
 
 ## Release 6: Reflection
 
+- What parts of your strategy worked? What problems did you face?
 
-https://www.atlassian.com/git/tutorial/remote-repositories#!fetch
+My strategy for using the Pomodoro technique to time myself on this challenge really paid off. I elected to spend some of my time browsing through the articles to refamiliarize myself with the basic git concepts and commands. 
 
-I found the tutorial at <a href="https://www.atlassian.com/git">atlassian.com/git</a> exceptionally useful for understanding what certain git commands actually do. 
+When working through this challenge the problem that I faced was trying to find a way to understand what the git manual pages for the various commands actually meant. Going into the challenge I had a rough idea of what most of these commands did, but their exact specifics were a bit fuzzy. Then trying to decode what the git manual pages were saying added a level of complexity I hadn't anticipated. 
+
+
+- What questions did you have while coding? What resources did you find to help you answer them?
+
+My questions resolved around how best to break down what the commands were doing into terminology that I could understand at a deeper level. I found the tutorial at <a href="https://www.atlassian.com/git">atlassian.com/git</a> exceptionally useful for understanding what certain git commands actually do. Also the visual nature of <a href="http://pcottle.github.io/learnGitBranching/">Learn Git Branching</a> resource was extremely helpful.
+
+
+- What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+For this particular challenge there weren't any concepts that I had particular trouble with. 
+
+
+- Did you learn any new skills or tricks?
+
+I learned that the pull command is a combination of fetch and merge, which is useful to know. This way if you want to review the work that has been committed to the remote repository prior to merging it into your own, that is an option. 
+
+
+- How confident are you with each of the Learning Competencies?
+
+I am confident with the learning competencies for this challenge and I think that as I move away from using an application to interface with git and GitHub I will increase my proficiences. 
+
+
+- Which parts of the challenge did you enjoy?
+
+I enjoyed learning more about git and finally understanding what certain commands are doing and how they can be used during work on a project. 
+
+- Which parts of the challenge did you find tedious?
+
+There were moments when I was trying to understand what the git manual pages were telling me about various commands where I wanted to tear out a few hairs. Luckily I managed to find a helpful resource that helped translate some of the technical jargon of those pages into a format I found more digestable. 
