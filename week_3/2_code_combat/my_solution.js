@@ -95,7 +95,18 @@ this.moveRight();
  
 // It's a Trap
 // Pseudocode
+// move down x2
+// taunt guard
+// move up x2
+// command allies to attack
 
+// Taunt the Ogre and run for cover!
+this.moveDown();
+this.moveDown();
+this.say('Hey there!');
+this.moveUp();
+this.moveUp();
+this.say('Attack!');
  
 // Break the Prison
 // Pseudocode
