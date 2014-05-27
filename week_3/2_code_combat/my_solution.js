@@ -209,37 +209,70 @@ this.attackXY(48, 53);
 /**
  * When you are finished with all of the campaigns, answer the following questions. You may want to look at some resources on JavaScript before answering.
  * What is this referring to? Think programming-wise rather than in the terms of the game.
- * What does the () do in JavaScript?
- * What is the point of the semicolons?
  * 
- */
-
-/**
  * The this object can have different meanings depending on the context of where it is used. 
  * If it used outside of a function invocation, it will refer to the global object. If it is used within a function
  * closure, it will refer to the object that caused the function invocation. 
- */
-
-/**
- * The () after a function in JavaScript is a function invocation, in other words they cause the function to be executed.
  *
- */
- 
-/**
+ *
+  * What does the () do in JavaScript?
+ * 
+ * The () after a function in JavaScript is a function invocation, in other words they cause the function to be executed.
+ * 
+ * 
+  * What is the point of the semicolons?
+ * 
  * Semicolons are used to separate statements in JavaScript. It can clarify code by showing where one 
  * statement ends and the next begins. They are not required between lines to separate two statements, 
- * yet sometimes it is easier to have them there to create clear differentiations of statements
+ * yet sometimes it is easier to have them there to create a clear differentiation of statements.
+ *
  * 
  */
+
+
 
 // Reflection:
 // Write your reflection here.
 /**
  * What parts of your strategy worked? What problems did you face?
+ *
+ * My strategies worked for all of the problems. The only issues I faced early on in the Code Combat
+ * problems, was figuring out how many spaces I needed to move on the board. After I figured out 
+ * each of those things it was relatively quick and fun to solve the problems. 
+ *
+ * 
  * What questions did you have while coding? What resources did you find to help you answer them?
+ *
+ * I didn't have any questions in this particular challenge. 
+ * 
+ * 
  * What concepts are you having trouble with, or did you just figure something out? If so, what?
+ *
+ * This challenge didn't have any concepts that I wasn't familiar with already. I have spent some 
+ * amount of time studying JavaScript, so these challenges were nice refreshers for certain aspects
+ * of the language.
+ *
+ * 
  * Did you learn any new skills or tricks?
+ *
+ * This challenge didn't reward me with any new skills or tricks.
+ *
+ * 
  * How confident are you with each of the Learning Competencies?
+ *
+ * I am very confident in the learning competencies for this particular challenge.
+ *
+ * 
  * Which parts of the challenge did you enjoy?
+ *
+ * The code comabat problems were fun to work on to learn some pieces of JavaScript. 
+ *
+ * 
  * Which parts of the challenge did you find tedious?
+ *
+ * There were some pieces of the Code Combat problems that were tedious. In the early problems that 
+ * didn't allow you to use the moveXY command, there were some maps that didn't clearly have board 
+ * movement mapped out that took a few minutes to puzzle out. On the whole they weren't that bad,
+ * as they just ended up being a bunch of trial and error. 
+ * 
  */
