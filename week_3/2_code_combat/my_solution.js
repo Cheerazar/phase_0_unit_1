@@ -127,12 +127,13 @@ this.say('Attack!');
 // Mission: Break the Prison
 /**
  * Pseudocode
- *
+ * friends = ['William', 'Lucas', 'Marcus', 'Robert', 'Gordon'];
+ * if name is friend return true else false
+ * if name is enemy return false
  * 
  */
 
-
-
+return  ['William', 'Lucas', 'Marcus', 'Robert', 'Gordon'].indexOf(name) > -1 ? true : false;
 
 // Mission: Taunt
 /**
