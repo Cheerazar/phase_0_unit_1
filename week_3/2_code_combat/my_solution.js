@@ -151,20 +151,12 @@ this.say('I can beat you in one on one combat!', {target: 'enemy'});
 // Mission: Cowardly Taunt
 /**
  * Pseudocode
- * move to 56, 33
+ * move within range to taunt ogres
  * taunt ogres
- * move to 70, 10
- * move to 41, 42
- * taunt ogres
- * move to 70, 10
- * move to 68, 44
- * taunt ogres
- * move to 70, 10
+ * move to safe spot to allow archers to kill orgres
  * 
  */
 
-// I managed to find a sweet spot that drew in all the ogres in
-// one go so I only needed three commands
 this.moveXY(56, 33);
 this.say('Your mother was a human!', {target: 'enemy'});
 this.moveXY(70, 10);
@@ -174,9 +166,9 @@ this.moveXY(70, 10);
 // Mission: Commanding Followers
 /**
  * Pseudocode
- * Move to 75, 63
+ * Move within range to followers
  * recruit followers using the word follow
- * move to 66, 42
+ * move close enough to command attack
  * command followers to attack
  * 
  */
@@ -191,11 +183,24 @@ this.say('Attack!');
 // Mission: Mobile Artillery
 /**
  * Pseudocode
+ * cannon has a 30 meter range
  *
- * 
+ * move cannon within range
+ * attack
+ * move artillery within range of top right group
+ * attack x2 to kill large ogre
+ * move within range of top left group
+ * attack x2 to kill large ogre
  */
 
-
+this.moveXY(30, 26);
+this.attackXY(46, 5);
+this.moveXY(56, 29);
+this.attackXY(68, 56);
+this.attackXY(63, 46);
+this.moveXY(51, 38);
+this.attackXY(51, 67);
+this.attackXY(48, 53);
 
 
  
