@@ -41,6 +41,30 @@
  * 		end if
  *  end initialize
  *
+ *	define function move with input argument direction
+ * 		define object movement with four properties up, down, left, right
+ * 		and each of those properties has a value of an object with the appropriate x and y coordinate 
+ * 		adjustment for the direction
+ *
+ * 		if movement allowed
+ * 			move square either up, down, left, or right
+ * 		else
+ *   		
+ * 		end if
+ *
+ *
+ * 	end move
+ *
+ *	define movement allowed function with input arguments xCoord and yCoord
+ * 		keep a list of allowable space square can move
+ * 		if in allowable space
+ * 			return true
+ * 		else
+ * 			return false
+ * 		end
+ * 	end movement
+ *
+ * 
  * 	document ready
  *  
  *
