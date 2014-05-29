@@ -27,9 +27,9 @@
  *  		translate canvas context to cartesean coord system
  *    	draw 1px outline around canvas perimeter
  *
- * 			draw top course line that starts from (0, 165), (180, 165), (180, 225), (480, 225), (480, 165), (600, 165)
- *    	draw low course line that starts from (0, 135), (180, 135), (180, 75), (480, 75), (480, 135), (600, 135)
- *     	draw and fill 240 by 90 rectangle, start at (210, 105), (210, 195), (450, 195), (450, 105), end at (210, 105)
+ * 			draw top course line that starts from (0, 165), (180, 165), (180, 225), (420, 225), (420, 165), (600, 165)
+ *    	draw low course line that starts from (0, 135), (180, 135), (180, 75), (420, 75), (420, 135), (600, 135)
+ *     	draw and fill 180 by 90 rectangle, start at (210, 105)
  *    	draw and fill 30 by 30 finish square at (570, 135), (570, 165), (600, 165), (600, 135), (570, 135)
  *    	draw and fill 30 by 30 start square at (0, 135), (0, 165), (30, 165), (30, 135), (0, 135)
  *    	draw and fill 30 by 30 color 1 square at (285, 75), (285, 105), (315, 105), (315, 75), (285, 75)
@@ -60,7 +60,7 @@
 
 
 
-
+	
 
 // Refactored Code
 
