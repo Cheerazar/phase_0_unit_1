@@ -31,7 +31,6 @@
  *    	draw low course line that starts from (0, 135), (180, 135), (180, 75), (420, 75), (420, 135), (600, 135)
  *     	draw and fill 180 by 90 rectangle, start at (210, 105)
  *    	draw and fill 30 by 30 finish square at (570, 135), (570, 165), (600, 165), (600, 135), (570, 135)
- *    	draw and fill 30 by 30 start square at (0, 135), (0, 165), (30, 165), (30, 135), (0, 135)
  *    	draw and fill 30 by 30 color 1 square at (285, 75), (285, 105), (315, 105), (315, 75), (285, 75)
  *    	draw and fill 30 by 30 color 2 square at (285, 195), (285, 225), (305, 225), (305, 195), (285, 195)
  *     	
@@ -41,39 +40,46 @@
  * 		end if
  *  end initialize
  *
- *	define function move with input argument direction
+ *	define function move( direction )
  * 		define object movement with four properties up, down, left, right
  * 		and each of those properties has a value of an object with the appropriate x and y coordinate 
  * 		adjustment for the direction
  *
- * 		if movement allowed
- * 			move square either up, down, left, or right
+ * 		if movementAllowed(xCoord, yCoord)
+ * 			drawSquare square either up, down, left, or right
+ * 			return true
  * 		else
- *   		
+ *   		return false
  * 		end if
- *
- *
  * 	end move
  *
- *	define movement allowed function with input arguments xCoord and yCoord
+ *	function movementAllowed with input arguments xCoord and yCoord
  * 		keep a list of allowable space square can move
  * 		if in allowable space
+ * 			update playerSquare xCoord and yCoord
  * 			return true
  * 		else
  * 			return false
  * 		end
  * 	end movement
  *
+ * 	function drawSquare(xCoord, yCoord)
+ *  	
+ *
+ * 	end draw
  * 
  * 	document ready
  *  
+ *  playerSquare = starting coords
+ *  
  *
- *
- *
- *
- *
- *
- *
+ *	on click of up, down, left, right 
+ *		clear previously displayed messages
+ * 		if ( !move(direction) )
+ * 			display across screen or board 'Try moving a different direction' 
+ *		end if
+ * 	end on
+ * 
  * 	end
  *
  * 
