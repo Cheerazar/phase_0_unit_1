@@ -1,3 +1,31 @@
+var sum = function(arrayA) {
+  if(arrayA.length === 0) {
+    return 0;
+  } else {
+    return eval(arrayA.join('+')); 
+  }
+};
+
+
+var mean = function(arrayB) {
+  if(arrayB === 0) {
+    return 0;
+  } else { 
+    return sum(arrayB) / arrayB.length; 
+  }
+};
+
+var median = function(arrayC) {
+  arrayC.sort();
+  var middle = arrayC.length / 2;
+  if ((arrayC.length % 2) == 0) {
+    return (arrayC[middle] + arrayC[middle - 1]) / 2;
+  } else {
+    return arrayC[middle - 0.5];
+  }
+  
+};
+
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
